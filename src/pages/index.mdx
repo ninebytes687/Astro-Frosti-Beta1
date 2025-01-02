@@ -1,0 +1,33 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import Collapse from "../components/mdx/Collapse.astro";
+import Diff from "../components/mdx/Diff.astro";
+import Error from "../components/mdx/Error.astro";
+import Info from "../components/mdx/Info.astro";
+import Kbd from "../components/mdx/Kbd.astro";
+import Success from "../components/mdx/Success.astro";
+import Warning from "../components/mdx/Warning.astro";
+import TimeLine from "../components/mdx/TimeLine.astro";
+import LinkCard from "../components/mdx/LinkCard.astro";
+
+<BaseLayout title="Home">
+  <BaseCard title="Home">
+    <div class="flex">
+      <div class="p-6">
+          # Hi！Welcome To Visit! 👋
+          ---
+          ### 欢迎来到我的博客！
+
+      </div>
+    </div>
+
+  </BaseCard>
+
+  <BaseCard title="Home" image="/index.webp">
+
+🏠HOME / 主页
+---
+欢迎访问，这里是我的网站主页，你可以点击左侧的导航栏，去逛逛我的小站吧！🥰
+
+  </BaseCard>
+</BaseLayout>
