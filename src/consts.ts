@@ -11,7 +11,8 @@ export const DATE_FORMAT = "ddd MMM DD YYYY";
 // User profile information
 export const USER_NAME = "NineBlog";
 export const USER_SITE = "https://ninebytes.pages.dev"
-export const USER_AVATAR = "/profile.webp";
+// 头像链接
+export const USER_AVATAR = "https://free4.yunpng.top/2025/01/03/67774e1561a91.webp";
 
 // Server and transition settings
 export const SERVER_URL = "https://ninebytes.pages.dev";
